@@ -1,0 +1,30 @@
+{
+  "name": "zw-maps-yandex",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "dependencies": {
+    "@types/yandex-maps": "^2.1.2",
+    "zw-maps": "0.0.2"
+  },
+  "devDependencies": {
+    "ts-loader": "^3.1.1",
+    "typescript": "^2.6.1",
+    "uglifyjs-webpack-plugin": "^1.1.2",
+    "webpack": "^3.8.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zenwarr/zw-maps-yandex"
+  },
+  "bugs": {
+    "url": "https://github.com/zenwarr/zw-maps-yandex/issues"
+  },
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "author": "zenwarr",
+  "license": "MIT"
+}

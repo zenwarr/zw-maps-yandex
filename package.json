@@ -1,12 +1,12 @@
 {
   "name": "zw-maps-yandex",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "dependencies": {
     "@types/yandex-maps": "^2.1.2",
-    "zw-maps": "0.0.2"
+    "zw-maps": "0.0.3"
   },
   "devDependencies": {
     "ts-loader": "^3.1.1",

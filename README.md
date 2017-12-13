@@ -1,7 +1,7 @@
 # Usage
 
 ```
-npm i --save zw-maps-yandex
+npm i --save @zcomp/maps-yandex
 ```
 
 ```html

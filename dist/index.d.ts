@@ -1,5 +1,5 @@
 /// <reference types="yandex-maps" />
-import { PointData, MapOptions, Map } from 'zw-maps';
+import { PointData, MapOptions, Map } from '@zcomp/maps';
 export interface YandexMapPointData extends PointData {
     placemark: ymaps.Placemark | null;
 }

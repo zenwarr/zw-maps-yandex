@@ -1,4 +1,4 @@
-import { PointData, MapOptions, Map, Coords } from 'zw-maps';
+import { PointData, MapOptions, Map, Coords } from '@zcomp/maps';
 
 const DEF_INITIAL_ZOOM = 15;
 const DEF_CENTER_LAT = 55.753742,

@@ -1,12 +1,12 @@
 {
   "name": "@zcomp/maps-yandex",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "dependencies": {
     "@types/yandex-maps": "^2.1.2",
-    "zw-maps": "0.0.3"
+    "@zcomp/maps": "^0.0.5"
   },
   "devDependencies": {
     "ts-loader": "^3.1.1",

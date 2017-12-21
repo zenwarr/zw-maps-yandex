@@ -1,15 +1,20 @@
-import { PointData, MapOptions, Map, Coords } from '@zcomp/maps';
+import { MapOptions, Map, Coords } from '@zcomp/maps';
+import * as maps from '@zcomp/maps';
+import {ComponentFactory} from "@zcomp/base";
+import * as base from '@zcomp/base';
+
+export const DefaultOptions: MapOptions = base.assign({ }, maps.DefaultOptions);
 
 const DEF_INITIAL_ZOOM = 15;
 const DEF_CENTER_LAT = 55.753742,
     DEF_CENTER_LONG = 37.620032;
 
-export interface YandexMapPointData extends PointData {
+export interface YandexMapPointData extends maps.PointData {
   placemark: ymaps.Placemark|null;
 }
 
 export class YandexMap extends Map {
-  constructor(root: Element, options?: MapOptions) {
+  constructor(root: Element, options: MapOptions) {
     super(root, options);
 
     if (!(window as any).ymaps) {
@@ -74,3 +79,5 @@ export class YandexMap extends Map {
 
   protected _ymap: ymaps.Map;
 }
+
+export const YandexMapFactory = new ComponentFactory<YandexMap, MapOptions>('map', DefaultOptions, YandexMap);

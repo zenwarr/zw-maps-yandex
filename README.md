@@ -9,8 +9,7 @@ npm i --save @zcomp/maps-yandex
 ```
 
 ```js
-const MapFactory = require('@zcomp/maps').MapFactory;
-const YandexMap = require('@zcomp/maps-yandex').YandexMap;
+const YandexMapFactory = require('@zcomp/maps-yandex').YandexMapFactory;
 
-MapFactory.init(YandexMap);
+YandexMapFactory.init();
 ```

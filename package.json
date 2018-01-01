@@ -6,8 +6,8 @@
   "types": "dist/index.d.ts",
   "dependencies": {
     "@types/yandex-maps": "^2.1.2",
-    "@zcomp/base": "0.0.7",
-    "@zcomp/maps": "0.0.10"
+    "@zcomp/base": "0.0.8",
+    "@zcomp/maps": "0.0.11"
   },
   "devDependencies": {
     "ts-loader": "^3.1.1",
